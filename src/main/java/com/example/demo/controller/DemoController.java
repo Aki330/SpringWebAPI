@@ -36,7 +36,7 @@ public class DemoController {
 		ObjectNode documentNode = mapper.createObjectNode();
 		documentNode.put("id", "1");
 		documentNode.put("language", "ja");
-		documentNode.put("text", "やっぱり Java");
+		documentNode.put("text", "やっぱ Java");
 		// Add the document node to the documents array
 		analysisInputNode.putArray("documents").add(documentNode);
 
